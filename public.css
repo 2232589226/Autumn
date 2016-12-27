@@ -1,22 +1,22 @@
 *{margin:0px;padding: 0px;font-family: "Microsoft Yahei";font-size: 12px}
-/*body{background-color: rgb(242,242,242);}*/
-		.w1200{width: 1200px;margin:0 auto}
+		.w1200{width: 1230px;margin:0 auto}
 		a{text-decoration: none;}
 		li,ol{list-style: none}
 		h1,h2,h3,h4,h5,h6{margin:0px;padding: 0px}
 		img{border:none;}
 		p{font-weight: normal;}
-		input{outline: none;}
+		input{outline: none}
 		.clear{clear:both;}
 		.logo{float: left;width: 80px;height: 60px;margin-top: 10px;}
+		/*头部*/
 		.top-bg{margin-top:20px;}
 		.top-bg .logo{
 			float: left;
 			margin-top: -10px;
 		}
 		.head{
-			background-color: rgb(230,230,230)
-			;height:100px;
+			background-color: rgb(230,230,230);
+			height:100px;
 			margin-top: 20px;
 			min-width: 1200px;
 			line-height: 100px
@@ -39,13 +39,13 @@
 			background-color:rgb(161,161,161)
 		}
 		.head-right a:hover{text-decoration: underline;}
-		.nav{float: right;}
+		.nav{float: right;line-height: 25px}
 		.nav a{float: left;
 			padding:0 20px ;
 			border-radius: 5px;
 			line-height: 30px;
 			color: rgb(158,149,161);
-			font-size: 14px
+			font-size: 14px;
 		}
 		.nav-a:hover{color: #fff;background-color: rgb(166,26,46);}
 		.nav-sousuo{position: absolute;top:6px;right:25px;}
@@ -53,11 +53,13 @@
 			border-radius: 4px;
 			border:1px solid rgb(158,149,161);
 			outline: none;
-			padding-left:10px ;
-			line-height: 20px;
+			padding-left:10px;
+			height: 22px;
 			width: 165px;
 		}
 		.nav-last-a{position: relative;}
+
+		/*底部*/
 		.footer{
 			margin-top: 80px;
 			height: 300px;
