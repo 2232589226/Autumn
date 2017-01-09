@@ -21,9 +21,11 @@
 			min-width: 1200px;
 			line-height: 100px
 		}
-		.head-left{display: block;
+		.head-left{
+			display: block;
 			height: 45px;
 			width: 200px;
+			color: rgb(116,26,126);
 			}
 		.head-left-o{color:white;font-size: 24px}
 		.head-left{float: left;}
@@ -48,7 +50,15 @@
 			font-size: 14px;
 		}
 		.nav-a:hover{color: #fff;background-color: rgb(166,26,46);}
-		.nav-sousuo{position: absolute;top:6px;right:25px;}
+		.nav-sousuo{
+			position: absolute;	
+			z-index: 1;
+			width: 18px;
+			height: 18px;left: 173px;
+			top:6px;
+			background:url(image/sousuo.png) no-repeat ;
+			cursor: pointer;
+		}
 		.nav-input{
 			border-radius: 4px;
 			border:1px solid rgb(158,149,161);
